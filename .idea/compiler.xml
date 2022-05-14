@@ -9,8 +9,8 @@
         <module name="svv-vending-machine" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="svv-vending-machine" target="15" />
+    <bytecodeTargetLevel target="12">
+      <module name="svv-vending-machine" target="12" />
     </bytecodeTargetLevel>
   </component>
 </project>

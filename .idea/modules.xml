@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/svv-vending-machine.iml" filepath="$PROJECT_DIR$/.idea/svv-vending-machine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/svv-vending-machine.iml" filepath="$PROJECT_DIR$/svv-vending-machine.iml" />
     </modules>
   </component>
 </project>

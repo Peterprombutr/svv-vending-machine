@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/java" isTestSource="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="svv-vending-machine" level="project" />
+    <orderEntry type="module-library" scope="TEST">
+      <library name="JUnit5.4">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../lib/junit-jupiter-5.4.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib/junit-jupiter-api-5.4.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib/apiguardian-api-1.0.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib/opentest4j-1.1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib/junit-platform-commons-1.4.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib/junit-jupiter-params-5.4.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib/junit-jupiter-engine-5.4.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../lib/junit-platform-engine-1.4.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.1.4/selenium-api-4.1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.1.4/selenium-chrome-driver-4.1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.1.4/selenium-chromium-driver-4.1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.1.4/selenium-devtools-v85-4.1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.1.4/selenium-devtools-v99-4.1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.1.4/selenium-devtools-v100-4.1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.1.4/selenium-devtools-v101-4.1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.1.4/selenium-edge-driver-4.1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.1.4/selenium-firefox-driver-4.1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.1.4/selenium-http-4.1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.1.4/selenium-ie-driver-4.1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.1.4/selenium-java-4.1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.1.4/selenium-json-4.1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.1.4/selenium-opera-driver-4.1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.1.4/selenium-remote-driver-4.1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.1.4/selenium-safari-driver-4.1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.1.4/selenium-support-4.1.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.1.4/selenium-api-4.1.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.1.4/selenium-chrome-driver-4.1.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.1.4/selenium-chromium-driver-4.1.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.1.4/selenium-devtools-v85-4.1.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.1.4/selenium-devtools-v99-4.1.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.1.4/selenium-devtools-v100-4.1.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.1.4/selenium-devtools-v101-4.1.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.1.4/selenium-edge-driver-4.1.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.1.4/selenium-firefox-driver-4.1.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.1.4/selenium-http-4.1.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.1.4/selenium-ie-driver-4.1.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.1.4/selenium-json-4.1.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.1.4/selenium-opera-driver-4.1.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.1.4/selenium-remote-driver-4.1.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.1.4/selenium-safari-driver-4.1.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/selenium-java-4.1.4/selenium-support-4.1.4-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

@@ -20,6 +20,7 @@ public class VendingMachineAdapterSelenium extends ExecutionContext {
     WebDriver driver;
     static final float PRICE_TUM_THAI = 100.0f;
     static final float PRICE_TUM_POO = 120.0f;
+    int paymentcheck=0;
 
     @BeforeExecution
     public void setUp() {
@@ -179,6 +180,31 @@ public class VendingMachineAdapterSelenium extends ExecutionContext {
         txtCreditCardNum.clear();
         txtNameOnCard.clear();
         driver.findElement(By.name("btn_pay")).click();
+    }
+
+    @Vertex()
+    public void PaymentTimeCheck(){
+        System.out.println("Vertex PaymentCheck");
+        new WebDriverWait(driver, Duration.ofSeconds(5))
+                .until(ExpectedConditions.elementToBeClickable(By.tagName("img")));
+        //Check if it's already more than three retries.
+        System.out.println("Number of retries: "+paymentcheck);
+        if(paymentcheck<3){
+            System.out.println("Retrying");
+        }
+        else{
+            System.out.println("Redirecting back to welcome");
+        }
+        paymentcheck++;
+    }
+
+    @Edge()
+    public void StillCanPay(){
+        System.out.println("Edge StillCanPay");
+    }
+    @Edge()
+    public void CantPayAnymore(){
+        System.out.println("Edge CantPayAnymore");
     }
 
     @Vertex()

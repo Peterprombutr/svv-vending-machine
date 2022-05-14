@@ -20,8 +20,8 @@ class SystemTest {
         context.setPathGenerator(new RandomPath(new EdgeCoverage(100)));
 
         /* Uncomment the following three lines to enable GraphWalker player */
-        //WebSocketServer server = new WebSocketServer(8887, executor.getMachine());
-        //server.start();
+        WebSocketServer server = new WebSocketServer(8887, executor.getMachine());
+        server.start();
 
         Result result = executor.execute(true);
         if (result.hasErrors()) {
